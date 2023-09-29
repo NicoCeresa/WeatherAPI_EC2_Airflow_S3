@@ -1,6 +1,6 @@
 # Weather API ETL
 
-The script used for this ETL is airflow/dags/weather_dag.py
+**Note:** These are just the very base files for this project and do not include any secrets, tokens, or anything of the like
 
 ## How Was This Done?
 
