@@ -1,6 +1,7 @@
 # Weather API ETL
 
 **Note:** These are just the very base files for this project and do not include any secrets, tokens, or anything of the like
+
 ## Overview
 - In this project I used the openweathermap.org API to pull data on the climate of a city such as weather description, temp, feels like temp, daily minimum temp, daily maximum temp, pressure, humidity, wind speed, time of record, sunrise and sunset time
 - I did this for the city of Oakland but this can be easily changed to any city you would like
@@ -33,7 +34,7 @@
 - use the given credentials to sign in
 
 ### Step 4: Start DAG
-- with the code in `airflow/dags/weather_dag.py` the dag should be all set
+- with the code in `weather_dag.py` the dag should be all set
 - your end result should look like this:
 
 ![alt text](https://github.com/NicoCeresa/WeatherAPI_EC2_Airflow_S3/blob/main/Airflow_ETL.png)
