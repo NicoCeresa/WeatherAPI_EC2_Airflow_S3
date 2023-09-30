@@ -1,6 +1,14 @@
 # Weather API ETL
 
 **Note:** These are just the very base files for this project and do not include any secrets, tokens, or anything of the like
+## Overview
+- In this project I used the openweathermap.org API to pull data on the climate of a city such as weather description, temp, feels like temp, daily minimum temp, daily maximum temp, pressure, humidity, wind speed, time of record, sunrise and sunset time
+- I did this for the city of Oakland but this can be easily changed to any city you would like
+
+## Technologies used
+- AWS EC2
+- Apache-Airflow
+- AWS S3
 
 ## How Was This Done?
 
